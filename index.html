@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hersey">
+    
+    <div class="cart-header">
+        <h3 class="recelYazisi" id="title1">Reçel</h3>
+        <h3 class="recelSayisi" id="title2">0</h3>
+        <div class="dps">
+            <h3>Reçel/Dk=</h3>
+            <h3 id="dps"> 0</h3> 
+        </div>
+    </div>
+    <div class="oyun">
+
+        <div class="ilk">
+            <h1 class="ureticiler">Üreticiler</h1>
+            <div class="oyun-alani">
+                <div class="islemler">
+
+                    <div class="makine">
+                        <img src="makine.png" onclick="recelMakinesiHarcamasi()" class="tiklama" alt="">
+                        <div class="Ozellikler">
+                            <h3 class="isim">Makineçel</h3>
+                            <h3>$50</h3>
+                            <h2 id="makineSayiGoster">0</h2>
+                            <button id="makinecelButon" class="maksButon"  onclick="makineMaksla()">max</button>
+                        </div>
+                    </div>
+
+                    <div class="dunya">
+                        <img src="dunya.png" onclick="recelDunyasiHarcamasi()" class="tiklama" alt="">
+                        <div class="Ozellikler">
+                            <h3 class="isim">Dünyaçel</h3>
+                            <h3>$500</h3>
+                            <h2 id="dunyaSayiGoster">0</h2>
+                            <button id="dunyacelButon" class="maksButon" onclick="dunyaMaksla()">max</button>
+                        </div>
+                    </div>
+
+                    <div class="evren">
+                        <img src="evren.png" onclick="recelEvreniHarcamasi()" class="tiklama" alt="">
+                        <div class="Ozellikler">
+                            <h3 class="isim">Evreneçel</h3>
+                            <h3>$5,000</h3>
+                            <h2 id="evrenSayiGoster">0</h2>
+                            <button id="evrenecelButon" class="maksButon" onclick="evrenMaksla()">max</button>
+                        </div>
+                    </div>
+
+                    <div class="cilekIntikam">
+                       <img onclick="recelCanavariHarcamasi()" class="tiklama" src="Çilek-intikam.png" alt="">
+                       
+                       <div class="Ozellikler">
+                            <h3 class="isim">Canavarçel</h3>
+                            <h3>$500,000</h3>
+                            <h2 id="canavarSayiGoster">0</h2>
+                            <button id="canavarcelButon" class="maksButon" onclick="canavarMaksla()">max</button>
+                       </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="orta">
+            
+            <div class="merkeziRecel">
+                <img src="tıklama.png" onclick="puanArttir()" class="tiklama1" alt="">
+            </div>
+        </div>
+
+        <div class="son">
+            <h2>Geliştirmeler</h2>
+            <div class="gelistirmeler">
+                <div class="gelistirmek">
+                    <h2>Makineçel Otomatik Fulleyici</h2>
+                    <button onclick="makinecelAc()" class="gelistirmekButon"> $5,000 </button>
+                </div>
+                <div class="gelistirmek">
+                    <h2>Dünyaçel Otomatik Fulleyici</h2>
+                    <button onclick="dunyacelAc()" class="gelistirmekButon"> $50,000 </button>
+                </div>
+                <div class="gelistirmek">
+                    <h2>Evreneçel Otomatik Fulleyici</h2>
+                    <button onclick="evrenecelAc()" class="gelistirmekButon"> $500,000 </button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>

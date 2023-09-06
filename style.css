@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.cart-header{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background-color: rgb(127, 255, 212,0.6);
+    border-radius: 7px;
+    padding: 7px;
+    min-width: 10rem;
+    max-width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dps{
+    display: flex;
+    flex-direction: row;
+}
+
+.recelSayisi{
+    font-size: 4rem;
+}
+.hersey{
+    background: radial-gradient(rgba(255, 0, 0, 0.1), rgb(0,0,0,0.9));
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+.oyun{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.tiklama1{
+    width: 20rem;
+    height: 26rem;
+}
+.tiklama1:active{
+    width: 15rem;
+    height: 19rem;
+}
+
+.tiklama{
+    width: 10rem;
+    height: 13rem;
+}
+
+
+.islemler{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+.ilk{ 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding-left: 5.5%;
+}
+
+.makine{
+    display: flex;
+    align-items: center;
+}
+.dunya{
+    display: flex;
+    align-items: center;
+}
+
+.evren{
+    display: flex;
+    align-items: center;
+}
+
+
+.orta{
+    display: flex;
+    flex-direction: column;
+}
+
+.son{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 5.5%;
+}   
+.gelistirmeler{
+    max-width: 10rem;
+    min-width: 10rem;
+    min-height: 30rem;
+    background:linear-gradient(to bottom, rgb(1,1,111,0.3),rgb(3,4,5,0.3));
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.gelistirmek{
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    margin-left: 10px;
+    flex-direction: column;
+    background-color: rgb(0, 255, 255,0.2);
+    border-radius: 10px;
+}
+
+.gelistirmekButon{
+    margin-top: 3px;
+    border-radius: 100px;
+    background-color: rgb(5, 82, 5);
+    color: aliceblue;
+}
+
+.oyun-alani{
+    background:radial-gradient(rgb(0, 128, 0,0.4),rgb(0, 0, 0,0.4));
+    width: 17rem;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.maksButon{
+    color: rgb(131, 27, 16);
+    background-color: tomato;
+    border-radius: 6px;
+    padding: 4px;
+    font-size: 1.2rem;
+}
+
+.Ozellikler{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.isim{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(39, 174, 66);
+    
+}
+
+.cilekIntikam{
+    display: flex;
+    align-items: center;
+}
