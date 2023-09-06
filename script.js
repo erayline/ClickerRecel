@@ -9,7 +9,7 @@ let dunyacelAcildiMi = 0
 let evrenecelAcildiMi = 0
 
 let tiklamaUcret = 10
-let merkeziTiklama = 2
+let merkeziTiklama = 1
 
 setInterval(recelHesaplama,100)
 
