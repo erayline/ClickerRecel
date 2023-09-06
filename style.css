@@ -52,11 +52,19 @@
 .tiklama1{
     width: 20rem;
     height: 26rem;
+    transition-duration: 100ms;
+    border-radius: 100px;
+
+
 }
 .tiklama1:active{
     width: 15rem;
     height: 19rem;
+    backdrop-filter: 10rem;
+    border-radius: 100px;
+    background:radial-gradient(rgb(255, 0, 0,0.4),rgb(0, 0, 0,0.01)) ;
 }
+
 
 .tiklama{
     width: 10rem;
